@@ -1,6 +1,7 @@
 package org.learning.easy;
 
 public class FinalPricesWithDiscount {
+    //1475. Final Prices With a Special Discount in a Shop
     public int[] finalPrices(int[] prices) {
         int[] output = new int[prices.length];
         //Set the last elment of the new array with the last element of prices[]
